@@ -36,7 +36,7 @@ function reset() {
          <p>Total points: {{ scoreA + scoreB }}</p>
 
          <p>Points left to win:
-            {{ maxScore - (ScoreA > scoreB ? scoreA : scoreB) }}
+            {{ maxScore - (scoreA > scoreB ? scoreA : scoreB) }}
          </p>
 
         <!-- A. Event handlers go here -->
